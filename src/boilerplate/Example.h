@@ -13,4 +13,4 @@ class Example {
     std::string m_variable{"Hello, World!"};
 };
 
-}  // namespace boilerplate
+} // namespace boilerplate

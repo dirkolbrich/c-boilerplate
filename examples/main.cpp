@@ -1,6 +1,6 @@
-#include <iostream>
-
 #include "boilerplate/Example.h"
+
+#include <iostream>
 
 int main() {
     boilerplate::Example example = boilerplate::Example();

@@ -1,0 +1,23 @@
+# We'll use defaults from the LLVM style with modifications
+BasedOnStyle: LLVM
+ColumnLimit: 120
+IndentWidth: 4
+---
+Language: Cpp
+AllowShortEnumsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BraceWrapping:
+    SplitEmptyFunction: false
+    SplitEmptyRecord: false
+    SplitEmptyNamespace: false
+IncludeBlocks: Regroup
+InsertBraces: true
+InsertNewlineAtEOF: true
+PackConstructorInitializers: CurrentLine
+PointerAlignment: Left
+SortIncludes: CaseInsensitive
+SpacesInLineCommentPrefix:
+    Maximum: 1
+TabWidth: 4
